@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prerelease:increment": "npm version prerelease --no-git-tag-version",
+    "prerelease:patch": "npm version prepatch --no-git-tag-version",
+    "prerelease:minor": "npm version preminor --no-git-tag-vexrsion",
+    "prerelease:major": "npm version premajor --no-git-tag-version",
+    "release:patch": "npm version patch",
+    "release:minor": "npm version minor",
+    "release:major": "npm version major",
+    "publish:prerelease": "npm publish --tag=dev",
+    "publish:release": "npm publish"
   },
   "repository": {
     "type": "git",
