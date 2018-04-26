@@ -1,12 +1,12 @@
 {
   "name": "npm-release-version-method",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "prerelease:increment": "npm version prerelease --no-git-tag-version",
     "prerelease:patch": "npm version prepatch --no-git-tag-version",
-    "prerelease:minor": "npm version preminor --no-git-tag-vexrsion",
+    "prerelease:minor": "npm version preminor --no-git-tag-version",
     "prerelease:major": "npm version premajor --no-git-tag-version",
     "release:patch": "npm version patch",
     "release:minor": "npm version minor",
